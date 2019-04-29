@@ -160,17 +160,3 @@ ol h3 {
     margin: 0;
     font-style: italic;
 }
-
-.btn {
-	background-color: rgb(153, 186, 221);
-	color: black;
-	padding: 8px 20px;
-	border: none;
-	border-radius: 8px;
-	margin-top: 5px;
-}
-
-.btn:hover {
-	background-color: rgb(131, 159, 189);
-	color: white;
-}
