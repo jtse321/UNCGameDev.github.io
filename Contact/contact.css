@@ -19,6 +19,7 @@ h1 {
     font-size: 4vw;
 }
 
+
 .headerr {
     background-color: rgb(41, 41, 41);
     color: rgb(153, 186, 221);
@@ -173,8 +174,11 @@ button:hover {
 }
 
 .container-contact {
-    margin-left: 420px;
-    margin-top: 20px;
+    margin:auto;
+    width:100%;
+    display: inline-block;
+    text-align: center;
+   
 }
 
 input[type=text], select, textarea {
@@ -201,3 +205,17 @@ input[type=text], select, textarea {
     color: white;
   }
 
+
+  @media only screen and (max-width: 479px) {
+    input[type=text], select, textarea {
+        width: 80%; 
+        padding: 10px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+      }
+
+
+  }
