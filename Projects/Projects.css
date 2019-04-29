@@ -188,7 +188,7 @@ button:hover {
     width: 50%;
     height: 46vw;
     margin-left: 25vw;
-    margin-top: 2vw;
+    padding-top: 2vw;
     margin-bottom: 2vw;
 }
 
@@ -219,13 +219,77 @@ button:hover {
     font-size:1.5vw;
   }
 
+  .headerr img {
+    float: left;
+    width: 7vw;
+    height: 7vw;
+    margin-left: 10px;
+}
+
+.headerr h1 {
+    font-family: myFirstFont;
+    text-align: center;
+    margin-top: 1vw;
+    padding-left: 10px;
+    position: relative;
+    font-size: 4vw;
+}
+
+.headerr {
+    background-color: rgb(41, 41, 41);
+    color: rgb(153, 186, 221);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navebar {
+    background-color: rgb(153, 186, 221);
+}
+
+.navbar-expand-lg {
+    background-color: rgb(153, 186, 221);
+    color: rgb(153, 186, 221);
+}
+
+.navbar-light {
+    background-color: rgb(153, 186, 221);
+    color: rgb(153, 186, 221);
+}
+
+nav .bg-light {
+    background-color: rgb(153, 186, 221);
+    color: rgb(153, 186, 221);
+}
+
+nav li {
+    background-color: rgb(153, 186, 221);
+    font-size: 125%;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav li:hover {
+    background-color: white;
+    padding-left: 10px;
+}
+
+nav .navbar-toggler {
+    background-color: white;
+}
+
+nav button {
+    margin-left: 10px;
+}
+
   @media only screen and (max-width: 479px) {
     .game {
         background-color: rgb(153, 186, 221);
         width: 80%;
         height: 65vw;
         margin:auto;
-        margin-top: 2vw;
+        padding-top: 2vw;
         margin-bottom: 2vw;
     }
     .screen1 {
