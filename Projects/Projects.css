@@ -1,3 +1,17 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(153, 186, 221);
+    overflow-x: hidden;
+}
+
+.projects {
+    background: #DDDDDD;
+}
+
 .grid-column-layout {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;

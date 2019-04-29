@@ -1,3 +1,13 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(153, 186, 221);
+    overflow-x: hidden;
+}
+
 @font-face {
     font-family: myFirstFont;
     src: url("/fonts/Mylodon-Light.otf");
@@ -167,6 +177,10 @@ button:hover .back {
 
 button:hover {
     background-color: rgb(114, 137, 218);
+}
+
+.contact {
+    background: #DDDDDD;
 }
 
 .contact-txt {
