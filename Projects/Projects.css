@@ -32,6 +32,7 @@ button {
     background-color: white;
     background-size: 100%;
     position: relative;
+    
 }
 
 img {
@@ -171,15 +172,16 @@ button:hover {
 .game {
     background-color: rgb(153, 186, 221);
     width: 50%;
-    height: 42vw;
+    height: 46vw;
     margin-left: 25vw;
     margin-top: 2vw;
     margin-bottom: 2vw;
 }
 
+
 .screen1 {
     width: 50vw;
-    margin-top: 2vw;
+    margin-top: 1vw;
 }
 
 .screen2 {
@@ -200,4 +202,42 @@ button:hover {
     text-align: center;
     display: inline-block;
     margin-left: 18vw;
+    font-size:1.5vw;
+  }
+
+  @media only screen and (max-width: 479px) {
+    .game {
+        background-color: rgb(153, 186, 221);
+        width: 80%;
+        height: 65vw;
+        margin:auto;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    .screen1 {
+        width: 80vw;
+        margin-top: 1vw;
+    }
+    
+    .screen2 {
+        width: 80vw;
+        margin-top: 2vw;
+    }
+    
+    .screen3 {
+        width: 80vw;
+        margin-top: 2vw;
+    }
+    .btn {
+        background-color: white; 
+        color: black;
+        padding: 10px 15px;
+        border-radius: 8px;
+        text-align: center;
+       
+        margin-left: 22vh;
+        font-size:1.5vw;
+      }
+
+
   }
