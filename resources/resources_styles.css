@@ -46,14 +46,6 @@ h1 {
     color: rgb(153, 186, 221);
 }
 
-li {
-    background-color: rgb(153, 186, 221);
-    font-size: 125%;
-    margin: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 li:hover {
     background-color: white;
     padding-left: 10px;
