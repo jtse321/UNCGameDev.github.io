@@ -161,3 +161,45 @@ nav .navbar-toggler {
 nav button {
     margin-left: 10px;
 }
+
+
+@media only screen and (max-width: 479px) {
+	.headerr img {
+        float: left;
+        width: 10vw;
+        height: 10vw;
+        margin-left: 10px;
+    }
+    
+    .headerr h1 {
+        font-family: myFirstFont;
+        text-align: center;
+        margin-top: 3vw;
+        padding-left: 10px;
+        position: relative;
+        font-size: 4vw;
+    }
+    
+    .headerr {
+        background-color: rgb(41, 41, 41);
+        color: rgb(153, 186, 221);
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .top-right {
+        background: #A3C0E0;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        border-radius: 10px;
+        padding: 2px;
+        font-size: 1em;
+        color: black;
+        opacity: .75;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+    }
+}
